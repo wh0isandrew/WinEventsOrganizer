@@ -29,7 +29,7 @@
     pip install -r requirements.txt
     ```
 
-## ⚙️ How to Use
+## How to Use
 
 The script is run from the command line. The only required argument is the path to the `.csv` log file.
 
@@ -59,4 +59,5 @@ python event_log_analyzer.py security-logs.csv --id 4625 --level "Falha da Audit
 | `--search <term>`        | Search for a keyword in the event message.                 | `--search "Administrator"`                 |
 | `--limit <number>`       | Set the maximum number of events to process.               | `--limit 100`                              |
 | `--no-online-lookup`     | Disable the online lookup for Event ID explanations.       | `--no-online-lookup`                       |
+
 
