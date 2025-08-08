@@ -1,8 +1,8 @@
-# Event Log Analyzer 📊
+# Event Log Analyzer
 
 > An advanced, cross-platform Python tool for parsing, filtering, and analyzing Windows Event Logs from `.csv` files. It transforms raw log data into an interactive, user-friendly HTML report with automatic online lookup for Event ID explanations.
 
-## ✨ Features
+## Features
 
 * **Interactive HTML Reports:** Generates a clean, modern, and interactive HTML report with a dark mode that respects your OS settings.
 * **Intelligent Parsing:** Automatically parses non-standard `.csv` files exported from the Windows Event Viewer, correctly handling multi-line messages.
@@ -11,12 +11,12 @@
 * **Powerful Filtering:** Allows you to filter events by `level`, `Event ID`, and `keywords`.
 * **Cross-Platform:** The script is fully compatible with **Windows**, **macOS**, and **Linux**.
 
-## 📋 Requirements
+## Requirements
 
 * Python 3.6+
 * The `requests` and `beautifulsoup4` libraries.
 
-## 🚀 Installation
+## Installation
 
 1.  **Clone the repository:**
     ```bash
@@ -59,3 +59,4 @@ python event_log_analyzer.py security-logs.csv --id 4625 --level "Falha da Audit
 | `--search <term>`        | Search for a keyword in the event message.                 | `--search "Administrator"`                 |
 | `--limit <number>`       | Set the maximum number of events to process.               | `--limit 100`                              |
 | `--no-online-lookup`     | Disable the online lookup for Event ID explanations.       | `--no-online-lookup`                       |
+
